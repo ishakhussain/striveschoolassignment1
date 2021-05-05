@@ -1,0 +1,206 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global styles */
+button {
+  padding: 1.2rem 2.4rem;
+  font-family: inherit;
+  background: #f5df4e;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  font-size: 2.1rem;
+  line-height: 3.7rem;
+}
+
+/* Navigation */
+.container {
+  width: 140rem;
+  margin: 0 auto;
+}
+header {
+  background: black;
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+header a {
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+nav ul li {
+  padding: 2.5rem;
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+
+/* Home */
+.home {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.753)),
+    url(/images/caspar-camille-rubin-7SDoly3FV_0-unsplash\(2\).jpg);
+
+  background-size: cover;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.home-desc {
+  padding-bottom: 10rem;
+  text-align: center;
+}
+.home h1 {
+  padding-bottom: 120px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+.home button {
+  transition: all 0.3s ease;
+}
+.home button:hover {
+  background: #ccba43;
+}
+
+.home span {
+  display: block;
+}
+
+/* About */
+.about {
+  margin-top: 6rem;
+  height: 60vh;
+}
+.about-beginningdesc {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-beginningdesc h4 {
+  background: #f5df4e;
+  padding: 0.5rem;
+  font-weight: 300;
+  display: inline;
+}
+.about-beginningdesc h2 {
+  margin-top: 1rem;
+}
+.about-desc-container {
+  width: 100rem;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.about-desc h5 {
+  padding-bottom: 10px;
+}
+.about-desc span {
+  color: rgb(0, 38, 255);
+  font-weight: 500;
+}
+.about-grid {
+  display: grid;
+  width: 100rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, max-content);
+  grid-gap: 8rem;
+}
+.about-grid-desc h6 {
+  font-size: 16px;
+}
+
+/* background */
+.background-desc {
+  display: flex;
+  justify-content: space-between;
+  width: 90rem;
+  margin: 0 auto;
+  color: rgb(43, 43, 43);
+}
+.background-desc h4 {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 600;
+}
+.background-desc h5 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.background-desc h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.background-desc p {
+  font-size: 18px;
+}
+.background-desc ul {
+  padding-left: 30px;
+}
+.background-edudesc1 {
+  padding-bottom: 40px;
+}
+.background-desc li {
+  font-size: 16px;
+}
+
+/* footer */
+footer {
+  height: 7vh;
+  background: black;
+  color: white;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+}
+footer .flex {
+  display: flex;
+  justify-content: center;
+}
+footer h5 {
+  font-size: 16px;
+  padding: 0 10px;
+}
